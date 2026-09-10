@@ -7,9 +7,9 @@ namespace MorseCode_BinaryTrees.Classes
     public class MorseNode
     {
         public char Character { get; set; }
-        public MorseTree Left { get; set; }
+        public MorseNode Left { get; set; }
 
-        public MorseTree Right { get; set; }
+        public MorseNode Right { get; set; }
 
         public MorseNode(char character = ' ')
         {
