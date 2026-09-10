@@ -4,7 +4,9 @@ using System.Text;
 
 namespace MorseCode_BinaryTrees.Classes
 {
-    internal class BinaryTree
+    public class MorseTree
     {
+ 
+
     }
 }
